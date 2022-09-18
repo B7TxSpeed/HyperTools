@@ -9,7 +9,7 @@ HT_targets = {
         return GetUnitName("reticleover")
     end,
     ["Group"] = function(i)
-        return GetUnitName("group" .. i)
+        return zo_strformat("<<C:1>>", GetUnitName("group" .. i))
     end,
 }
 
